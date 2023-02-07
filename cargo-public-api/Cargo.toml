@@ -38,6 +38,7 @@ features = ["derive", "wrap_help"]
 [dependencies.crates-index]
 version = "0.19.3"
 default-features = false
+features = ["https"]
 optional = true
 
 [dependencies.rustdoc-json]
