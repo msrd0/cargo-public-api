@@ -36,7 +36,9 @@ version = "4.0.32"
 features = ["derive", "wrap_help"]
 
 [dependencies.crates-index]
-version = "0.19.3"
+#version = "0.19.3"
+git = "https://github.com/msrd0/rust-crates-index"
+rev = "196a5ae0fce3a4a45d11632d4bec6a4b15ba8ee6"
 default-features = false
 features = ["https"]
 optional = true
